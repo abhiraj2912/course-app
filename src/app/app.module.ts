@@ -14,6 +14,10 @@ const myRoute:Routes=[
   {
     path:"",
     component:AddCourseComponent
+  },
+  {
+    path:"view",
+    component:ViewCourseComponent
   }
 ]
 
