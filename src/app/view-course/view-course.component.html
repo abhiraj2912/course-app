@@ -13,7 +13,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
+                  <tr *ngFor="let i of data">
                     <td>{{i.courseTitle}}</td>
                     <td>{{i.description}}</td>
                     <td>{{i.venue}}</td>
