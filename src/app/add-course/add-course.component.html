@@ -6,6 +6,10 @@
                 <label for="" class="form-label">Course Title</label>
                 <input name="courseTitle" [(ngModel)]="courseTitle" type="text" class="form-control">
             </div>
+            <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                <label for="" class="form-label">Date</label>
+                <input type="date" name="date" [(ngModel)]="date" id="" class="form-control">
+            </div>
             <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                 <label for="" class="form-label">Description</label>
                 <textarea name="description" [(ngModel)]="description" id="" cols="30" rows="5" class="form-control"></textarea>
@@ -17,10 +21,6 @@
             <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                 <label for="" class="form-label">Duration</label>
                 <input name="duration" [(ngModel)]="duration" type="text" class="form-control">
-            </div>
-            <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                <label for="" class="form-label">Date</label>
-                <input type="date" name="date" [(ngModel)]="date" id="" class="form-control">
             </div>
             <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                 <button (click)="readValues()" class="btn btn-success">Add</button>
